@@ -1,13 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "react-slideshow-image/dist/styles.css";
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  height: 100vh;
+}
+
+.banner {
+  height: 650px;
+}
+
+.Ellipse {
+  height: 80%;
+  margin-top: 80px;
+  margin-left: -450px;
+}
+
+.e1 {
+  width: 450px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.work1 {
+  margin-left: 180px;
+  margin-top: 30px;
+}
+
+.work2 {
+  margin-left: 650px;
+  margin-top: 150px;
+}
+
+.work3 {
+  margin-left: 870px;
+  margin-top: 300px;
+}
+
+.work4 {
+  margin-left: 620px;
+  margin-top: 450px;
+}
+
+.work5 {
+  margin-left: 200px;
+  margin-top: 490px;
+}
+
+.s4 {
+  margin-left: 890px;
+  margin-top: -95px;
+}
+
+.ecosytem {
+  height: 600px;
+  margin: auto;
+}
+
+.path {
+  width: 95%;
+  height: auto;
+  margin-left: 320px;
+}
+
+.Soldier {
+  height: 40%;
+  margin-top: 110px;
+  margin-left: 880px;
+}
+
+.Ascraeus {
+  height: 40%;
+  margin-top: 250px;
+  margin-left: 1130px;
+}
+
+.MINER {
+  height: 40%;
+  margin-top: 420px;
+  margin-left: 830px;
+}
+
+.g360 {
+  margin-top: 460px;
+  margin-left: 200px;
+}
+
+.cube {
+  height: 20%;
+  margin-top: 520px;
+  margin-left: 500px;
+}
+
+.s5 {
+  margin-top: 165px;
+  margin-left: 680px;
+}
+
+.Group1 {
+  height: 10%;
+  margin-top: 110px;
+  margin-left: 1220px;
+}
+
+.Group2 {
+  height: 5%;
+  margin-top: 400px;
+  margin-left: 1380px;
+}
+
+.Group3 {
+  height: 20%;
+  margin-top: 550px;
+  margin-left: 1280px;
+}
+
+.s6 {
+  margin-left: 460px;
+  margin-top: -85px;
 }

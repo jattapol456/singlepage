@@ -27,8 +27,8 @@ section {
 }
 
 .Slider{
-  margin-top: 300px;
-  margin-bottom: 300px;
+  margin-top: 280px;
+  margin-bottom: 280px;
 }
 
 .Rectangleimg {
@@ -37,7 +37,8 @@ section {
 }
 
 .banner {
-  height: 650px;
+  height: 600px;
+  margin-left: 150px;
 }
 
 .Ellipse {

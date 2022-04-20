@@ -2,13 +2,14 @@ import React from 'react';
 import './App.css';
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
-import SimpleSlider from './components/slide/Silde';
+import SlideBanner from './components/slide/SliderBanner';
+import SliderRectangle from './components/slide/SliderRectangle';
 function App() {
     return (
         <div className="App">
             <body className='bg-BG-main'>
                 <Navbar/>
-                <section className='relative flex justify-around items-center ml-52' id='decentralize novel'>
+                <section className='relative flex justify-around items-center ml-80' id='decentralize novel'>
                     <div className='space-y-4 grid justify-items-start'>
                         <img className='absolute h-80 ml-28 -mt-24' src="/bg-section1.png" alt="" />
                         <div className='grid justify-items-start'>
@@ -23,8 +24,11 @@ function App() {
                             <button className='p-3 pl-8 pr-8 text-xl font-bold bg-Button-main rounded hover:bg-Text-main active:bg-Text-main focus:outline-none focus:ring focus:ring-white'>Buy Token</button>
                         </div>
                     </div>
-                    <div className='mt-14'>
+                    {/* <div className='mt-14'>
                         <img className='banner' src={"./banner.png"} />
+                    </div> */}
+                    <div className='mt-14'>
+                        <SlideBanner/>
                     </div>
                 </section>
 
@@ -52,7 +56,7 @@ function App() {
                             <img src={"./MoonLT.png"} />
                         </div>
                         <div className=''>
-                            <SimpleSlider/>
+                            <SliderRectangle/>
                         </div>
                         <div className='flex justify-around space-x-96'>
                             <img className='pr-44' src={"./MoonRB.png"} />

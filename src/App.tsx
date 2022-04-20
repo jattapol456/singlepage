@@ -69,7 +69,7 @@ function App() {
                     <div className='relative'>
                         <img className='s4 absolute' src="/s4.png" alt="" />
                         <h1 className="text-5xl font-bold text-white"> E C O S Y S T E M </h1>
-                        <img className='ecosytem pt-20 h-screen' src="/ecosytem.png" alt="" />
+                        <img className='ecosytem absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-72' src="/ecosytem.png" alt="" />
                     </div>
                 </section>
 
@@ -103,7 +103,7 @@ function App() {
                     <div className='relative pt-40'>
                         <img className='s6 absolute' src="/s6.png" alt="" />
                         <h1 className="text-5xl font-bold text-white"> P A R T N E R </h1>
-                        <img className='Rectangle173 m-auto pt-20' src="/Rectangle173.png" alt="" />
+                        <img className='absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-64' src="/Rectangle173.png" alt="" />
                     </div>
                 </section>
 

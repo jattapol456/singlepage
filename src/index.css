@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "react-slideshow-image/dist/styles.css";
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
 
 body {
   margin: 0;
@@ -23,6 +24,16 @@ body {
 
 section {
   height: 100vh;
+}
+
+.Slider{
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.Rectangleimg {
+  height: 600px;
+  width: auto;
 }
 
 .banner {

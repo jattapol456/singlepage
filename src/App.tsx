@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
-
+import SimpleSlider from './components/slide/Silde';
 function App() {
     return (
         <div className="App">
@@ -46,19 +46,13 @@ function App() {
                 </section>
                 
                 <section className='items-center p-10' id='novel list'>
-                    <div className=''>
+                    <div className='items-center'>
                         <div className='flex justify-around space-x-96'>
                             <img className='pr-44' src={"./MoonRT.png"} />
                             <img src={"./MoonLT.png"} />
                         </div>
-                        <div className='Rectangle bg-no-repeat bg-center bg-origin-padding p-52 bg-contain' style={{ backgroundImage: "url(/Rectangle.png)" }}>
-                            <div className='space-y-2'>
-                                <h1 className="text-5xl font-bold text-white"> NOVEL BANNER</h1>
-                                <h1 className="text-4xl font-bold text-TextS3">KRYPTON DAWN OF MACHINE</h1>
-                            </div>
-                            <div className='pt-6'>
-                                <button className='p-2 pl-8 pr-8 text-xl font-bold text-white bg-Button-main rounded hover:bg-Text-main active:bg-Text-main focus:outline-none focus:ring-offset-0 focus:ring-white'>Launch App</button>
-                            </div>
+                        <div className=''>
+                            <SimpleSlider/>
                         </div>
                         <div className='flex justify-around space-x-96'>
                             <img className='pr-44' src={"./MoonRB.png"} />
@@ -67,7 +61,7 @@ function App() {
                     </div>
                 </section>
 
-                <section className='p-24' id='ecosystem'>
+                <section className='p-24 pt-40' id='ecosystem'>
                     <div className='relative'>
                         <img className='s4 absolute' src="/s4.png" alt="" />
                         <h1 className="text-5xl font-bold text-white"> E C O S Y S T E M </h1>
@@ -75,7 +69,7 @@ function App() {
                     </div>
                 </section>
 
-                <section className='pt-10' id='nfts'>
+                <section className='pt-24' id='nfts'>
                     <div className='relative h-full w-full'>
                         <img className='absolute h-full w-full' src="/bg-section2.png" alt="" />
                         <img className='absolute h-96 mt-52' src="/bg-section5.png" alt="" />
@@ -108,6 +102,8 @@ function App() {
                         <img className='Rectangle173 m-auto pt-20' src="/Rectangle173.png" alt="" />
                     </div>
                 </section>
+
+                
                 <Footer/>
             </body>
         </div>

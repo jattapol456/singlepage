@@ -1,117 +1,171 @@
-import React from 'react';
-import './App.css';
-import Footer from './components/footer/Footer';
-import Navbar from './components/navbar/Navbar';
-import SlideBanner from './components/slide/SliderBanner';
-import SliderRectangle from './components/slide/SliderRectangle';
-function App() {
-    return (
-        <div className="App">
-            <body className='bg-BG-main'>
-                <Navbar/>
-                <section className='relative flex justify-around items-center ml-80' id='decentralize novel'>
-                    <div className='space-y-4 grid justify-items-start'>
-                        <img className='absolute h-80 ml-28 -mt-24' src="/bg-section1.png" alt="" />
-                        <div className='grid justify-items-start'>
-                            <h1 className="text-6xl font-bold text-white"> DECENTRALIZE </h1>
-                            <h1 className="text-6xl font-bold text-white"> NOVEL </h1>
-                        </div>
-                        <div>
-                            <h1 className="text-xl text-white"> let build new world form text </h1>
-                        </div>
-                        <div className='space-x-4 text-white pt-10'>
-                            <button className='p-3 pl-8 pr-8 text-xl font-bold bg-Button-main rounded hover:bg-Text-main active:bg-Text-main focus:outline-none focus:ring-offset-0 focus:ring-white'>Lunch App</button>
-                            <button className='p-3 pl-8 pr-8 text-xl font-bold bg-Button-main rounded hover:bg-Text-main active:bg-Text-main focus:outline-none focus:ring focus:ring-white'>Buy Token</button>
-                        </div>
-                    </div>
-                    {/* <div className='mt-14'>
-                        <img className='banner' src={"./banner.png"} />
-                    </div> */}
-                    <div className='mt-14'>
-                        <SlideBanner/>
-                    </div>
-                </section>
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
+import SlideBanner from "./components/slide/SliderBanner";
+import SliderRectangle from "./components/slide/SliderRectangle";
 
-                <section className='items-center' id='how it work'>
-                    <div className='relative h-full w-full'>
-                        <img className='absolute h-full w-full' src="/bg-section2.png" alt="" />
-                        <div className='relative h-full w-screen'>
-                            <img className='Ellipse absolute h-full w-screen' src="/Ellipse.png" alt="" />
-                            <div className='relative items-center '>
-                                <img className='e1 absolute' src="/e1.png" alt="" />
-                                <img className='work1 absolute h-36' src="/work1.png" alt="" />
-                                <img className='work2 absolute h-36' src="/work2.png" alt="" />
-                                <img className='work3 absolute h-36' src="/work3.png" alt="" />
-                                <img className='work4 absolute h-36' src="/work4.png" alt="" />
-                                <img className='work5 absolute h-36' src="/work5.png" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                
-                <section className='items-center p-10' id='novel list'>
-                    <div className='items-center'>
-                        <div className='flex justify-around space-x-96'>
-                            <img className='pr-44' src={"./MoonRT.png"} />
-                            <img src={"./MoonLT.png"} />
-                        </div>
-                        <div className=''>
-                            <SliderRectangle/>
-                        </div>
-                        <div className='flex justify-around space-x-96'>
-                            <img className='pr-44' src={"./MoonRB.png"} />
-                            <img src={"./MoonLB.png"} />
-                        </div>
-                    </div>
-                </section>
+const App = () => {
+  return (
+    <body className="bg-BG-main">
+      <Navbar />
+      <div className="h-[100vh]" id="decentralize novel">
+        <div className="flex h-full ml-[15%]">
+          <img
+            className="absolute ml-[30%] mt-[3%] h-[40%]"
+            src="/bg-section1.png"
+            alt=""
+          />
+          <div className="max-w-[512px] ml-auto flex flex-col justify-center">
+            <div className="space-y-6">
+              <div className="space-y-6">
+                <img className="" src="/Decentralize Novel.png" alt="" />
+                <p className="mt-4 text-2xl text-white">
+                  let build new world form text
+                </p>
+              </div>
+              <div className="space-x-6 pt-14 text-white">
+                <button className="p-3 pl-8 pr-8 text-2xl font-bold bg-Button-main rounded hover:bg-Text-main active:bg-Text-main focus:outline-none focus:ring-offset-0 focus:ring-white">
+                  Lunch App
+                </button>
+                <button className="p-3 pl-8 pr-8 text-2xl font-bold bg-Button-main rounded hover:bg-Text-main active:bg-Text-main focus:outline-none focus:ring-offset-0 focus:ring-white">
+                  Buy Token
+                </button>
+              </div>
+            </div>
+          </div>
 
-                <section className='p-24 pt-40' id='ecosystem'>
-                    <div className='relative'>
-                        <img className='s4 absolute' src="/s4.png" alt="" />
-                        <h1 className="text-5xl font-bold text-white"> E C O S Y S T E M </h1>
-                        <img className='ecosytem absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-72' src="/ecosytem.png" alt="" />
-                    </div>
-                </section>
-
-                <section className='pt-24' id='nfts'>
-                    <div className='relative h-full w-full'>
-                        <img className='absolute h-full w-full' src="/bg-section2.png" alt="" />
-                        <img className='absolute h-96 mt-52' src="/bg-section5.png" alt="" />
-                        <img className='path absolute h-full w-full' src="/path.png" alt="" />
-                        <img className='Ascraeus absolute' src="/Ascraeus Mons.png" alt="" />
-                        <img className='Soldier absolute' src="/Soldier JPG.png" alt="" />
-                        <img className='MINER absolute' src="/MINER JPG.png" alt="" />
-                        <img className='g360 absolute' src="/360.png" alt="" />
-                        <img className='cube absolute' src="/cube.png" alt="" />
-                        <img className='s5 absolute' src="/s5.png" alt="" />
-                        <img className='Group1 absolute h-full' src="/Group1.png" alt="" />
-                        <img className='Group2 absolute h-full' src="/Group2.png" alt="" />
-                        <img className='Group3 absolute h-full' src="/Group3.png" alt="" />
-                        <div className='space-y-4 grid justify-items-start pt-64 pl-80'>
-                            <div className='grid justify-items-start'>
-                                <h1 className="text-6xl font-bold text-white"> CREATE NFT </h1>
-                            </div>
-                            <div className='grid justify-items-start'>
-                                <h1 className="text-5xl text-white"> FORM NOCEL AND </h1>
-                                <h1 className="text-5xl text-white"> USE IN GAMEFI </h1>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className='p-10' id='partner'>
-                    <div className='relative pt-40'>
-                        <img className='s6 absolute' src="/s6.png" alt="" />
-                        <h1 className="text-5xl font-bold text-white"> P A R T N E R </h1>
-                        <img className='absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-64' src="/Rectangle173.png" alt="" />
-                    </div>
-                </section>
-
-                
-                <Footer/>
-            </body>
+          <div className="max-w-[512px] scale-[100%] mx-auto flex flex-col justify-center">
+            <SlideBanner />
+          </div>
         </div>
-    );
-}
+      </div>
 
+      <div className="h-[100vh]" id="how it work">
+        <img className="absolute h-full w-full" src="/bg-section2.png" alt="" />
+        <div className="relative h-full w-full flex flex-col justify-center items-center scale-[140%] -left-[20%]">
+          <div className="absolute border border-white rounded-100% mx-auto h-[60%] w-[72%]">
+            <img
+              className="absolute h-[28%] left-[38%] -top-[10%]"
+              src="/work1.png"
+              alt=""
+            />
+          </div>
+          <div className="absolute border border-white rounded-100% mx-auto h-[47%] w-[59%]">
+            <img
+              className="absolute h-[28%] left-[73%] -top-[4%]"
+              src="/work2.png"
+              alt=""
+            />
+            <img
+              className="absolute h-[28%] left-[95%] top-[25%]"
+              src="/work3.png"
+              alt=""
+            />
+          </div>
+          <div className="absolute border border-white rounded-100% mx-auto h-[34%] w-[46%]">
+            <img
+              className="absolute h-[38%] left-[84%] top-[74%]"
+              src="/work4.png"
+              alt=""
+            />
+            <img
+              className="absolute h-[38%] left-[34%] top-[87%]"
+              src="/work5.png"
+              alt=""
+            />
+          </div>
+          <div className="absolute border border-white rounded-100% mx-auto h-[21%] w-[33%]">
+            <img
+              className="absolute h-[175%] -top-[45%] left-[15%]"
+              src="/e1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="h-[100vh]" id="novel list">
+        <div className="relative">
+          <div className="flex">
+            <img className="absolute right-[84%] top-[9%]" src={"./MoonRT.png"} />
+            <img className="absolute left-[84%] top-[9%]" src={"./MoonLT.png"} />
+          </div>
+          <div className="relative h-full w-full flex flex-col justify-center items-center ">
+            <SliderRectangle />
+          </div>
+          <div className="flex">
+            <img className="absolute right-[84%] bottom-[9%]" src={"./MoonRB.png"} />
+            <img className="absolute left-[84%] bottom-[9%]" src={"./MoonLB.png"} />
+          </div>
+        </div>
+      </div>
+
+      <div className="h-[100vh]" id="ecosystem">
+        <div className="relative flex justify-center mt-[10%] space-y-16">
+          <div className="relative">
+            <img
+              className="absolute left-[28.5rem] -top-[5.8rem]"
+              src="/s4.png"
+              alt=""
+            />
+            <h1 className="text-6xl font-bold text-white">
+              E C O S Y S T E M
+            </h1>
+          </div>
+          <div className="absolute">
+            <img className="scale-75" src="/ecosytem.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="h-[100vh]" id="nfts">
+        <div className="relative flex h-full">
+          <img className="absolute scale-[90%] -right-[23%]" src="/path.png" alt="" />
+          <img className="absolute scale-[68%] top-[52%] right-[85%]" src="/360.png" alt="" />
+          <img className="absolute scale-[60%] top-[58%] right-[62%]" src="/cube.png" alt="" />
+          <img className="absolute scale-[60%] top-[13%] right-[15%]" src="/Group1.png" alt="" />
+          <img className="absolute scale-[60%] top-[49%] right-[7%]" src="/Group2.png" alt="" />
+          <img className="absolute scale-[60%] top-[76%] right-[10%]" src="/Group3.png" alt="" />
+          <div className="max-w-[512px] ml-auto flex flex-col justify-center">
+            <div className="relative space-y-4 grid justify-items-start -top-[12%] left-[6%]">
+              <img className="absolute scale-[75%] -top-[35%] left-[86%]" src="/s5.png" alt="" />
+              <div className="grid justify-items-start">
+                <h1 className="text-6xl font-bold text-white"> CREATE NFT </h1>
+              </div>
+              <div className="grid justify-items-start space-y-3">
+                <h1 className="text-5xl text-white"> FROM NOCEL AND </h1>
+                <h1 className="text-5xl text-white"> USE IN GAMEFI </h1>
+              </div>
+            </div>
+          </div>
+
+          <div className="relative max-w-[512px] h-full w-full mx-auto">
+            <img className="absolute scale-[68%] -left-[11%] top-[7%]" src="/Soldier JPG.png" alt="" />
+            <img className="absolute scale-[68%] left-[46.5%] top-[27%]" src="/Ascraeus Mons.png" alt="" />
+            <img className="absolute scale-[68%] -left-[23%] top-[46.5%]" src="/MINER JPG.png" alt="" />
+          </div>
+        </div>
+      </div>
+      
+      
+      <div className="h-[100vh] mt-24" id="partner">
+        <div className="flex justify-center space-y-20">
+          <div className="relative">
+            <img
+              className="absolute -left-[7rem] -top-[5rem]"
+              src="/s6.png"
+              alt=""
+            />
+            <h1 className="text-6xl font-bold text-white"> P A R T N E R </h1>
+          </div>
+          <img
+            className="rectangle173 aspect-square absolute scale-75"
+            src="/Rectangle173.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <Footer />
+    </body>
+  );
+};
 export default App;

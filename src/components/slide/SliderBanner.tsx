@@ -22,13 +22,13 @@ export default class SlideBanner extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <img className='banner' src={"./banner.png"} />
+            <img className='' src={"./banner.png"} />
           </div>
           <div>
-            <img className='banner' src={"./banner.png"} />
+            <img className='' src={"./banner.png"} />
           </div>
           <div>
-            <img className='banner' src={"./banner.png"} />
+            <img className='' src={"./banner.png"} />
           </div>
           
         </Slider>

@@ -31,7 +31,43 @@ section {
   height: 100vh;
 }
 
+
+@media screen and (max-width: 640px) {
+  div.bg-section2 {
+    display: none;
+  }
+
+  img.e1 {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  div.moont {
+    display: none;
+  }
+
+  div.moonb {
+    display: none;
+  }
+
+  div.group {
+    display: none;
+  }
+
+}
+
+.ecosystem {
+  font-size: 3.75rem;
+  letter-spacing: .2em;
+}
+
+.partner {
+  font-size: 3.75rem;
+  letter-spacing: .2em;
+}
+
 .rectangle173 {
   mix-blend-mode: screen;
 }
-

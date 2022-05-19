@@ -23,22 +23,7 @@ export default class SliderRectangle extends Component {
           <div className="">
             <div className="flex flex-col justify-center items-center">
               <img className="" src={"./Rectangle.png"} />
-              <div className="absolute text-center">
-                <div className='space-y-2'>
-                  <h1 className="text-7xl font-bold text-white">NOVEL BANNER</h1>
-                  <h1 className="text-6xl font-bold text-TextS3">KRYPTON DAWN OF MACHINE</h1>
-                </div>
-                <div className='text-white pt-6'>
-                  <button className='p-4 pl-8 pr-8 text-3xl font-bold bg-Button-main rounded hover:bg-Text-main active:bg-Text-main focus:outline-none focus:ring-offset-0 focus:ring-white'>Lunch App</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="">
-            <div className="flex flex-col justify-center items-center">
-              <img className="" src={"./Rectangle.png"} />
-              <div className="absolute text-center">
+              <div className="absolute text-center scale-[40%] lg:scale-[100%] md:scale-[70%] sm:scale-[50%]">
                 <div className='space-y-2'>
                   <h1 className="text-7xl font-bold text-white">NOVEL BANNER</h1>
                   <h1 className="text-6xl font-bold text-TextS3">KRYPTON DAWN OF MACHINE</h1>
@@ -53,7 +38,21 @@ export default class SliderRectangle extends Component {
           <div className="">
             <div className="flex flex-col justify-center items-center">
               <img className="" src={"./Rectangle.png"} />
-              <div className="absolute text-center">
+              <div className="absolute text-center scale-[40%] lg:scale-[100%] md:scale-[70%] sm:scale-[50%]">
+                <div className='space-y-2'>
+                  <h1 className="text-7xl font-bold text-white">NOVEL BANNER</h1>
+                  <h1 className="text-6xl font-bold text-TextS3">KRYPTON DAWN OF MACHINE</h1>
+                </div>
+                <div className='text-white pt-6'>
+                  <button className='p-4 pl-8 pr-8 text-3xl font-bold bg-Button-main rounded hover:bg-Text-main active:bg-Text-main focus:outline-none focus:ring-offset-0 focus:ring-white'>Lunch App</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="flex flex-col justify-center items-center">
+              <img className="" src={"./Rectangle.png"} />
+              <div className="absolute text-center scale-[40%] lg:scale-[100%] md:scale-[70%] sm:scale-[50%]">
                 <div className='space-y-2'>
                   <h1 className="text-7xl font-bold text-white">NOVEL BANNER</h1>
                   <h1 className="text-6xl font-bold text-TextS3">KRYPTON DAWN OF MACHINE</h1>

@@ -7,14 +7,10 @@ const App = () => {
   return (
     <body className="bg-BG-main">
       <Navbar />
-      <div className="h-[100vh]" id="decentralize novel">
-        <div className="flex h-full ml-[15%]">
-          <img
-            className="absolute ml-[30%] mt-[3%] h-[40%]"
-            src="/bg-section1.png"
-            alt=""
-          />
-          <div className="max-w-[512px] ml-auto flex flex-col justify-center">
+      <div className="relative h-[100vh]" id="decentralize novel">
+        <img  className="absolute left-[25%] top-[2%] scale-[70%]" src="/bg-section1.png"  alt="" />
+        <div className="flex flex-col lg:flex-row h-full lg:ml-[15%]">
+          <div className="max-w-[512px] mx-auto flex flex-col justify-center aspect-auto scale-[50%] lg:scale-[100%] md:scale-[60%]">
             <div className="space-y-6">
               <div className="space-y-6">
                 <img className="" src="/Decentralize Novel.png" alt="" />
@@ -33,68 +29,46 @@ const App = () => {
             </div>
           </div>
 
-          <div className="max-w-[512px] scale-[100%] mx-auto flex flex-col justify-center">
+          <div className="max-w-[512px] mx-auto flex flex-col justify-center lg:-mt-0 md:-mt-28 -mt-40 lg:scale-[100%] md:scale-[60%] scale-[50%]">
             <SlideBanner />
           </div>
         </div>
       </div>
 
       <div className="h-[100vh]" id="how it work">
-        <img className="absolute h-full w-full" src="/bg-section2.png" alt="" />
+        <div className="bg-section2">
+          <img className="absolute h-full w-full" src="/bg-section2.png" alt="" />
+        </div>
         <div className="relative h-full w-full flex flex-col justify-center items-center scale-[140%] -left-[20%]">
-          <div className="absolute border border-white rounded-100% mx-auto h-[60%] w-[72%]">
-            <img
-              className="absolute h-[28%] left-[38%] -top-[10%]"
-              src="/work1.png"
-              alt=""
-            />
+          <div className="absolute rounded-100% mx-auto h-[60%] w-[72%] sm:border">
+            <img className="absolute h-[28%] left-[25%] sm:left-[38%] -top-[10%]" src="/work1.png" alt="" />
           </div>
-          <div className="absolute border border-white rounded-100% mx-auto h-[47%] w-[59%]">
-            <img
-              className="absolute h-[28%] left-[73%] -top-[4%]"
-              src="/work2.png"
-              alt=""
-            />
-            <img
-              className="absolute h-[28%] left-[95%] top-[25%]"
-              src="/work3.png"
-              alt=""
-            />
+          <div className="absolute border-white rounded-100% mx-auto h-[47%] w-[59%] sm:border">
+            <img  className="absolute h-[28%] left-[86%] sm:left-[73%] top-[5%] sm:-top-[4%]" src="/work2.png"  alt="" />
+            <img className="absolute h-[28%] left-[20%] sm:left-[95%] top-[30%] sm:top-[25%]" src="/work3.png" alt="" />
           </div>
-          <div className="absolute border border-white rounded-100% mx-auto h-[34%] w-[46%]">
-            <img
-              className="absolute h-[38%] left-[84%] top-[74%]"
-              src="/work4.png"
-              alt=""
-            />
-            <img
-              className="absolute h-[38%] left-[34%] top-[87%]"
-              src="/work5.png"
-              alt=""
-            />
+          <div className="absolute border-white rounded-100% mx-auto h-[34%] w-[46%] sm:border">
+            <img className="absolute h-[38%] left-[94%] sm:left-[84%] top-[65%] sm:top-[74%]" src="/work4.png" alt="" />
+            <img className="absolute h-[38%] left-[15%] sm:left-[34%] top-[100%] sm:top-[87%]" src="/work5.png" alt="" />
           </div>
-          <div className="absolute border border-white rounded-100% mx-auto h-[21%] w-[33%]">
-            <img
-              className="absolute h-[175%] -top-[45%] left-[15%]"
-              src="/e1.png"
-              alt=""
-            />
+          <div className="absolute border-white rounded-100% mx-auto h-[21%] w-[33%] sm:border">
+            <img className="e1 absolute h-[175%] -top-[45%] left-[15%]" src="/e1.png" alt="" />
           </div>
         </div>
       </div>
 
       <div className="h-[100vh]" id="novel list">
         <div className="relative">
-          <div className="flex">
-            <img className="absolute right-[84%] top-[9%]" src={"./MoonRT.png"} />
-            <img className="absolute left-[84%] top-[9%]" src={"./MoonLT.png"} />
+          <div className="moont flex">
+            <img className="absolute lg:right-[82%] 2xl:right-[80%] top-[12%]" src={"./MoonRT.png"} />
+            <img className="absolute lg:left-[82%] 2xl:left-[80%] top-[12%]" src={"./MoonLT.png"} />
           </div>
-          <div className="relative h-full w-full flex flex-col justify-center items-center ">
+          <div className="relative h-full w-full flex flex-col justify-center items-center scale-[90%]">
             <SliderRectangle />
           </div>
-          <div className="flex">
-            <img className="absolute right-[84%] bottom-[9%]" src={"./MoonRB.png"} />
-            <img className="absolute left-[84%] bottom-[9%]" src={"./MoonLB.png"} />
+          <div className="moonb flex">
+            <img className="absolute lg:right-[82%] 2xl:right-[80%] bottom-[12%]" src={"./MoonRB.png"} />
+            <img className="absolute lg:left-[82%] 2xl:left-[80%] bottom-[12%]" src={"./MoonLB.png"} />
           </div>
         </div>
       </div>
@@ -103,12 +77,13 @@ const App = () => {
         <div className="relative flex justify-center mt-[10%] space-y-16">
           <div className="relative">
             <img
-              className="absolute left-[28.5rem] -top-[5.8rem]"
+              className="absolute left-[25.8rem] -top-[5rem]"
               src="/s4.png"
               alt=""
             />
-            <h1 className="text-6xl font-bold text-white">
-              E C O S Y S T E M
+            <h1 className="ecosystem font-bold text-white">
+            {/* <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white"> */}
+              ECOSYSTEM
             </h1>
           </div>
           <div className="absolute">
@@ -118,16 +93,20 @@ const App = () => {
       </div>
 
       <div className="h-[100vh]" id="nfts">
-        <div className="relative flex h-full">
+        <div className="relative flex flex-col lg:flex-row h-full">
           <img className="absolute scale-[90%] -right-[23%]" src="/path.png" alt="" />
-          <img className="absolute scale-[68%] top-[52%] right-[85%]" src="/360.png" alt="" />
-          <img className="absolute scale-[60%] top-[58%] right-[62%]" src="/cube.png" alt="" />
-          <img className="absolute scale-[60%] top-[13%] right-[15%]" src="/Group1.png" alt="" />
-          <img className="absolute scale-[60%] top-[49%] right-[7%]" src="/Group2.png" alt="" />
-          <img className="absolute scale-[60%] top-[76%] right-[10%]" src="/Group3.png" alt="" />
-          <div className="max-w-[512px] ml-auto flex flex-col justify-center">
+          <img className="absolute -left-[1%] top-[30%] scale-[80%]" src="/bg-section1.png"  alt="" />
+          
+          <div className="group">
+            <img className="absolute scale-[60%] top-[58%] left-[25%]" src="/cube.png" alt="" />
+            <img className="absolute scale-[60%] top-[13%] left-[77.5%]" src="/Group1.png" alt="" />
+            <img className="absolute scale-[60%] top-[49%] left-[88.5%]" src="/Group2.png" alt="" />
+            <img className="absolute scale-[60%] top-[76%] left-[78%]" src="/Group3.png" alt="" />
+          </div>
+          <div className="max-w-[512px] mx-auto flex flex-col justify-center items-center">
             <div className="relative space-y-4 grid justify-items-start -top-[12%] left-[6%]">
               <img className="absolute scale-[75%] -top-[35%] left-[86%]" src="/s5.png" alt="" />
+              <img className="absolute scale-[68%] top-[90%] -left-[20%]" src="/360.png" alt="" />
               <div className="grid justify-items-start">
                 <h1 className="text-6xl font-bold text-white"> CREATE NFT </h1>
               </div>
@@ -139,9 +118,9 @@ const App = () => {
           </div>
 
           <div className="relative max-w-[512px] h-full w-full mx-auto">
-            <img className="absolute scale-[68%] -left-[11%] top-[7%]" src="/Soldier JPG.png" alt="" />
-            <img className="absolute scale-[68%] left-[46.5%] top-[27%]" src="/Ascraeus Mons.png" alt="" />
-            <img className="absolute scale-[68%] -left-[23%] top-[46.5%]" src="/MINER JPG.png" alt="" />
+            <img className="absolute scale-[40%] left-[4%] md:-left-[8%] lg:-left-[21%] -top-[5%] md:-top-[3%] lg:top-[7%] lg:scale-[68%] md:scale-[58%]" src="/Soldier JPG.png" alt="" />
+            <img className="absolute scale-[40%] left-[38%] md:left-[46.5%] lg:left-[36.5%] top-[8%] md:top-[15%] lg:top-[27%] lg:scale-[68%] md:scale-[58%]" src="/Ascraeus Mons.png" alt="" />
+            <img className="absolute scale-[40%] left-[10%] md:left-[3%] lg:-left-[33%] top-[25%] md:top-[46.5%] lg:scale-[68%] md:scale-[58%]" src="/MINER JPG.png" alt="" />
           </div>
         </div>
       </div>
@@ -149,21 +128,14 @@ const App = () => {
       
       <div className="h-[100vh] mt-24" id="partner">
         <div className="flex justify-center space-y-20">
-          <div className="relative">
-            <img
-              className="absolute -left-[7rem] -top-[5rem]"
-              src="/s6.png"
-              alt=""
-            />
-            <h1 className="text-6xl font-bold text-white"> P A R T N E R </h1>
+          <div className="absolute ">
+            <img className="absolute -left-[7rem] -top-[4rem]" src="/s6.png" alt="" />
+            <h1 className="partner font-bold text-white aspect-video">PARTNER</h1>
           </div>
-          <img
-            className="rectangle173 aspect-square absolute scale-75"
-            src="/Rectangle173.png"
-            alt=""
-          />
+          <img className="rectangle173 aspect-square absolute scale-75" src="/Rectangle173.png" alt="" />
         </div>
       </div>
+
       <Footer />
     </body>
   );

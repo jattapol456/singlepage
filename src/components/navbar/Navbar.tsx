@@ -102,42 +102,42 @@ function Navbar() {
             <div className="xl:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="decentralize novel"
+                  href="#decentralize novel"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   decentralize novel
                 </a>
 
                 <a
-                  href="how it work"
+                  href="#how it work"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   how it work
                 </a>
 
                 <a
-                  href="novel list"
+                  href="#novel list"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   novel list
                 </a>
 
                 <a
-                  href="ecosystem"
+                  href="#ecosystem"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   ecosystem
                 </a>
 
                 <a
-                  href="nfts"
+                  href="#nfts"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   nfts
                 </a>
 
                 <a
-                  href="partner"
+                  href="#partner"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   partner

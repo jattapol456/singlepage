@@ -29,7 +29,7 @@ const App = () => {
             </div>
           </div>
 
-          <div className="max-w-[512px] mx-auto flex flex-col justify-center lg:-mt-0 md:-mt-28 -mt-40 lg:scale-[100%] md:scale-[60%] scale-[50%]">
+          <div className="max-w-[512px] mx-auto flex flex-col justify-center lg:-mt-0 md:-mt-28 -mt-40 xl:scale-[105%] lg:scale-[90%] md:scale-[60%] scale-[50%]">
             <SlideBanner />
           </div>
         </div>
@@ -40,18 +40,18 @@ const App = () => {
           <img className="absolute h-full w-full" src="/bg-section2.png" alt="" />
         </div>
         <div className="relative h-full w-full flex flex-col justify-center items-center scale-[140%] -left-[20%]">
-          <div className="absolute rounded-100% mx-auto h-[60%] w-[72%] sm:border">
-            <img className="absolute h-[28%] left-[25%] sm:left-[38%] -top-[10%]" src="/work1.png" alt="" />
+          <div className="circle absolute rounded-100% mx-auto h-[28em] w-[66em] lg:border">
+            <img className="absolute h-[28%] left-[40%] sm:left-[40%] lg:left-[38%] -top-[10%]" src="/work1.png" alt="" />
           </div>
-          <div className="absolute border-white rounded-100% mx-auto h-[47%] w-[59%] sm:border">
-            <img  className="absolute h-[28%] left-[86%] sm:left-[73%] top-[5%] sm:-top-[4%]" src="/work2.png"  alt="" />
-            <img className="absolute h-[28%] left-[20%] sm:left-[95%] top-[30%] sm:top-[25%]" src="/work3.png" alt="" />
+          <div className="circle absolute border-white rounded-100% mx-auto h-[22em] w-[54em] lg:border">
+            <img  className="absolute h-[28%] left-[66%] sm:left-[66%] lg:left-[73%] top-[5%] lg:-top-[4%]" src="/work2.png"  alt="" />
+            <img className="absolute h-[28%] left-[38%] sm:left-[38%] lg:left-[95%] top-[30%] lg:top-[25%]" src="/work3.png" alt="" />
           </div>
-          <div className="absolute border-white rounded-100% mx-auto h-[34%] w-[46%] sm:border">
-            <img className="absolute h-[38%] left-[94%] sm:left-[84%] top-[65%] sm:top-[74%]" src="/work4.png" alt="" />
-            <img className="absolute h-[38%] left-[15%] sm:left-[34%] top-[100%] sm:top-[87%]" src="/work5.png" alt="" />
+          <div className="circle absolute border-white rounded-100% mx-auto h-[16em] w-[40em] lg:border">
+            <img className="absolute h-[38%] left-[70%] sm:left-[70%] lg:left-[84%] top-[65%] lg:top-[74%]" src="/work4.png" alt="" />
+            <img className="absolute h-[38%] left-[35%] sm:left-[35%] lg:left-[34%] top-[100%] lg:top-[87%]" src="/work5.png" alt="" />
           </div>
-          <div className="absolute border-white rounded-100% mx-auto h-[21%] w-[33%] sm:border">
+          <div className="circle absolute border-white rounded-100% mx-auto h-[10em] w-[26em] lg:border">
             <img className="e1 absolute h-[175%] -top-[45%] left-[15%]" src="/e1.png" alt="" />
           </div>
         </div>
@@ -93,7 +93,7 @@ const App = () => {
       </div>
 
       <div className="h-[100vh]" id="nfts">
-        <div className="relative flex flex-col lg:flex-row h-full">
+        <div className="relative flex flex-col xl:flex-row h-full">
           <img className="absolute scale-[90%] -right-[23%]" src="/path.png" alt="" />
           <img className="absolute -left-[1%] top-[30%] scale-[80%]" src="/bg-section1.png"  alt="" />
           
@@ -118,9 +118,9 @@ const App = () => {
           </div>
 
           <div className="relative max-w-[512px] h-full w-full mx-auto">
-            <img className="absolute scale-[40%] left-[4%] md:-left-[8%] lg:-left-[21%] -top-[5%] md:-top-[3%] lg:top-[7%] lg:scale-[68%] md:scale-[58%]" src="/Soldier JPG.png" alt="" />
-            <img className="absolute scale-[40%] left-[38%] md:left-[46.5%] lg:left-[36.5%] top-[8%] md:top-[15%] lg:top-[27%] lg:scale-[68%] md:scale-[58%]" src="/Ascraeus Mons.png" alt="" />
-            <img className="absolute scale-[40%] left-[10%] md:left-[3%] lg:-left-[33%] top-[25%] md:top-[46.5%] lg:scale-[68%] md:scale-[58%]" src="/MINER JPG.png" alt="" />
+            <img className="absolute scale-[40%] left-[4%] md:-left-[8%] xl:-left-[21%] -top-[5%] md:-top-[3%] xl:top-[7%] lg:scale-[68%] md:scale-[58%]" src="/Soldier JPG.png" alt="" />
+            <img className="absolute scale-[40%] left-[38%] md:left-[46.5%] xl:left-[36.5%] top-[8%] md:top-[15%] xl:top-[27%] lg:scale-[68%] md:scale-[58%]" src="/Ascraeus Mons.png" alt="" />
+            <img className="absolute scale-[40%] left-[10%] md:left-[3%] xl:-left-[33%] top-[25%] md:top-[46.5%] xl:top-[46.5%] lg:scale-[68%] md:scale-[58%]" src="/MINER JPG.png" alt="" />
           </div>
         </div>
       </div>

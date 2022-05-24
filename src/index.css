@@ -31,8 +31,11 @@ section {
   height: 100vh;
 }
 
+.circle {
+  aspect-ratio: 21/9;
+}
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
   div.bg-section2 {
     display: none;
   }
@@ -51,6 +54,14 @@ section {
   div.moonb {
     display: none;
   }
+  
+  div.logofooter {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1285px) {
 
   div.group {
     display: none;

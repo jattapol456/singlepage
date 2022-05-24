@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <header className="bg-BG-main text-white w-full">
-      <div className="p-[100px] flex justify-evenly items-center">
-        <div className="">
+      <div className="p-[100px] grid lg:flex justify-evenly items-center space-y-4">
+        <div className="logofooter">
           <img className="h-12" src={"./logo.png"} />
         </div>
         <div className="flex space-x-10 text-Text-main">
@@ -31,7 +31,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="grid justify-items-start space-y-4">
+        <div className="grid justify-items-start space-y-4 mx-auto lg:mx-0">
           <h2 className="text-lg font-bold text-white"> Join our community </h2>
           <div className="flex space-x-8">
             <img className="h-10" src="/Twitter.png" alt="" />

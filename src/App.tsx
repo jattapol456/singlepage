@@ -57,7 +57,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className="h-[100vh]" id="novel list">
+      <div className="h-[70vh] md:h-[90vh] lg:h-[100vh]" id="novel list">
         <div className="relative">
           <div className="moont flex">
             <img className="absolute lg:right-[82%] 2xl:right-[80%] top-[12%]" src={"./MoonRT.png"} />
@@ -73,7 +73,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className="h-[100vh]" id="ecosystem">
+      <div className="h-[80vh] md:h-[90vh] lg:h-[100vh]" id="ecosystem">
         <div className="relative flex justify-center mt-[10%] space-y-16">
           <div className="relative">
             <img
@@ -125,7 +125,7 @@ const App = () => {
       </div>
       
       
-      <div className="h-[100vh] mt-24" id="partner">
+      <div className="mt-24 h-[50vh] md:h-[80vh] lg:h-[100vh]" id="partner">
         <div className="flex justify-center space-y-20">
           <div className="absolute ">
             <img className="absolute -left-[7rem] -top-[4rem]" src="/s6.png" alt="" />

@@ -11,7 +11,7 @@ function Navbar() {
           <div className="flex items-center w-full justify-between h-16">
             <div className=" flex justify-between w-full items-center">
               <div className="logo">
-                <img className="h-12" src={"./logo.png"} />
+                <img className="h-12" src={"./logo.png"} alt="" />
               </div>
               <div className="hidden xl:block space-x-10 text-Text-main">
                 <a className="hover:text-white text-base text-Text-main" href="#decentralize novel">

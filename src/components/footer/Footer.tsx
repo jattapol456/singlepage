@@ -5,7 +5,7 @@ const Footer = () => {
     <header className="bg-BG-main text-white w-full">
       <div className="p-[100px] grid lg:flex justify-evenly items-center space-y-4">
         <div className="logofooter">
-          <img className="h-12" src={"./logo.png"} />
+          <img className="h-12" src={"./logo.png"} alt="" />
         </div>
         <div className="flex space-x-10 text-Text-main">
           <div className="grid justify-items-start">

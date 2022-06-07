@@ -22,7 +22,7 @@ export default class SliderRectangle extends Component {
         <Slider {...settings}>
           <div className="">
             <div className="flex flex-col justify-center items-center">
-              <img className="" src={"./Rectangle.png"} />
+              <img className="" src={"./Rectangle.png"} alt="" />
               <div className="absolute text-center scale-[40%] lg:scale-[100%] md:scale-[70%] sm:scale-[50%]">
                 <div className='space-y-2'>
                   <h1 className="text-7xl font-bold text-white">NOVEL BANNER</h1>
@@ -37,7 +37,7 @@ export default class SliderRectangle extends Component {
           
           <div className="">
             <div className="flex flex-col justify-center items-center">
-              <img className="" src={"./Rectangle.png"} />
+              <img className="" src={"./Rectangle.png"} alt="" />
               <div className="absolute text-center scale-[40%] lg:scale-[100%] md:scale-[70%] sm:scale-[50%]">
                 <div className='space-y-2'>
                   <h1 className="text-7xl font-bold text-white">NOVEL BANNER</h1>
@@ -51,7 +51,7 @@ export default class SliderRectangle extends Component {
           </div>
           <div className="">
             <div className="flex flex-col justify-center items-center">
-              <img className="" src={"./Rectangle.png"} />
+              <img className="" src={"./Rectangle.png"} alt="" />
               <div className="absolute text-center scale-[40%] lg:scale-[100%] md:scale-[70%] sm:scale-[50%]">
                 <div className='space-y-2'>
                   <h1 className="text-7xl font-bold text-white">NOVEL BANNER</h1>

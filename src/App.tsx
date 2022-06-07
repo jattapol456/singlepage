@@ -60,15 +60,15 @@ const App = () => {
       <div className="h-[70vh] md:h-[90vh] lg:h-[100vh]" id="novel list">
         <div className="relative">
           <div className="moont flex">
-            <img className="absolute lg:right-[82%] 2xl:right-[80%] top-[12%]" src={"./MoonRT.png"} />
-            <img className="absolute lg:left-[82%] 2xl:left-[80%] top-[12%]" src={"./MoonLT.png"} />
+            <img className="absolute lg:right-[82%] 2xl:right-[80%] top-[12%]" src={"./MoonRT.png"} alt=""  />
+            <img className="absolute lg:left-[82%] 2xl:left-[80%] top-[12%]" src={"./MoonLT.png"} alt=""  />
           </div>
           <div className="relative h-full w-full flex flex-col justify-center items-center scale-[90%]">
             <SliderRectangle />
           </div>
           <div className="moonb flex">
-            <img className="absolute lg:right-[82%] 2xl:right-[80%] bottom-[12%]" src={"./MoonRB.png"} />
-            <img className="absolute lg:left-[82%] 2xl:left-[80%] bottom-[12%]" src={"./MoonLB.png"} />
+            <img className="absolute lg:right-[82%] 2xl:right-[80%] bottom-[12%]" src={"./MoonRB.png"} alt=""  />
+            <img className="absolute lg:left-[82%] 2xl:left-[80%] bottom-[12%]" src={"./MoonLB.png"} alt=""  />
           </div>
         </div>
       </div>
